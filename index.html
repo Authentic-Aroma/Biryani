@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chicken Biryani Delight</title>
+  <title>Home Made Chicken Biryani</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
   <style>
     * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
 
     body, html {
@@ -19,13 +19,16 @@
     }
 
     .background {
-      background: url('images/biryani.png') no-repeat center center/cover;
+      background-image: url('images/biryani.png'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
       height: 100vh;
+      width: 100%;
       position: relative;
     }
 
     .overlay {
-      background-color: rgba(255, 105, 180, 0.8); /* pink overlay */
+      background-color: transparent; /* No background color */
       position: absolute;
       top: 0;
       left: 0;
@@ -41,39 +44,73 @@
     h1 {
       font-size: 3rem;
       margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     }
 
     p {
       font-size: 1.2rem;
       margin-bottom: 2rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
     }
 
-    a {
+    .menu {
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .menu h2 {
+      margin-bottom: 0.5rem;
+    }
+
+    .cta a {
       text-decoration: none;
-      background-color: white;
-      color: pink;
-      padding: 1rem 2rem;
+      background-color: #d62828;
+      color: white;
+      padding: 0.8rem 2rem;
       border-radius: 30px;
       font-weight: bold;
-      font-size: 1rem;
-      transition: background-color 0.3s, color 0.3s;
+      display: inline-block;
+      margin-top: 2rem;
+      transition: background-color 0.3s;
     }
 
-    a:hover {
-      background-color: #ffe6f0;
-      color: #d62828;
+    .cta a:hover {
+      background-color: #a61b1b;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 0.9rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
     }
   </style>
 </head>
 <body>
   <div class="background">
     <div class="overlay">
-      <h1>Chicken Biryani</h1>
-      <p>Authentic Hyderabadi taste. Home-cooked with love.</p>
-      <p>1 KG Chicken Biryani @ ₹1200</p>
-      <p>Double Masala Available!</p>
-      <a href="#">Order on WhatsApp</a>
+      <h1>Home Made Chicken Biryani</h1>
+      <p>Hyderabadi Flavors That Touch Your Soul!</p>
+
+      <div class="menu">
+        <h2>1 KG Chicken Biryani @ 1200/-</h2>
+        <h2>1 KG Chicken Biryani (Double Masala) @ 1200/-</h2>
+        <p>Slow-cooked, layered with fragrant basmati rice, authentic spices, and love. Served with raita and salan.</p>
+      </div>
+
+      <div class="cta">
+        <a href="#">Order on WhatsApp 9999999999</a>
+      </div>
     </div>
+
+    <footer>
+      © Biryani Lovers
+    </footer>
   </div>
 </body>
 </html>
