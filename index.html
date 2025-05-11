@@ -1,78 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homemade Chicken Biryani</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-        }
-        header {
-            background-color: #ff6600;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            margin: 20px 0;
-        }
-        #image-section img {
-            width: 100%;
-            height: auto;
-        }
-        #highlights, #menu {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 15px;
-        }
-        h2 {
-            color: #ff6600;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Homemade Chicken Biryani</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #ff6600;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+      gap: 20px;
+    }
+    section {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      flex: 1 1 300px;
+      box-sizing: border-box;
+      min-width: 280px;
+      max-width: 400px;
+    }
+    #image-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #ff6600;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to Homemade Chicken Biryani</h1>
-    </header>
+  <header>
+    <h1>Welcome to Homemade Chicken Biryani</h1>
+  </header>
 
+  <div class="container">
     <section id="image-section">
-        <h2>Our Biryani</h2>
-        <img src="biryani-image.jpg" alt="Delicious Chicken Biryani">
+      <h2>Our Biryani</h2>
+      <img src="biryani-image.jpg" alt="Delicious Chicken Biryani">
     </section>
 
     <section id="highlights">
-        <h2>Why Choose Us?</h2>
-        <ul>
-            <li>Authentic Taste of Chicken Biryani</li>
-            <li>Fresh Ingredients Every Day</li>
-            <li>Fast Delivery to Your Doorstep</li>
-            <li>Affordable Prices</li>
-        </ul>
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Authentic Taste of Chicken Biryani</li>
+        <li>Fresh Ingredients Every Day</li>
+        <li>Fast Delivery to Your Doorstep</li>
+        <li>Affordable Prices</li>
+      </ul>
     </section>
 
     <section id="menu">
-        <h2>Menu</h2>
-        <ul>
-            <li>Chicken Biryani - ₹300</li>
-            <li>Vegetarian Biryani - ₹250</li>
-            <li>Paneer Biryani - ₹275</li>
-            <li>Special Biryani (with raita & salad) - ₹350</li>
-        </ul>
+      <h2>Menu</h2>
+      <ul>
+        <li>Chicken Biryani - ₹300</li>
+        <li>Vegetarian Biryani - ₹250</li>
+        <li>Paneer Biryani - ₹275</li>
+        <li>Special Biryani (with raita & salad) - ₹350</li>
+      </ul>
     </section>
+  </div>
 
 </body>
 </html>
