@@ -1,122 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home Made Chicken Biryani</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
-  <style>
-    /* Global Styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: white;
-      color: #333;
-    }
-
-    /* Header Styles */
-    header {
-      background-color: #d62828; /* Red background */
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-    }
-
-    /* Content Section */
-    .container {
-      background-color: pink; /* Pink background for content */
-      padding: 2rem;
-      margin: 2rem auto;
-      max-width: 800px;
-      text-align: center;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    .biryani-image {
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-bottom: 1.5rem;
-    }
-
-    .menu h2 {
-      margin: 1rem 0;
-      font-size: 1.8rem;
-    }
-
-    .cta a {
-      text-decoration: none;
-      background-color: white;
-      color: pink;
-      padding: 0.8rem 2rem;
-      border-radius: 30px;
-      font-weight: bold;
-      display: inline-block;
-      margin-top: 2rem;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    .cta a:hover {
-      background-color: #ffe0e0;
-      color: #d62828;
-    }
-
-    /* Footer Styles */
-    footer {
-      background-color: #222;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      margin-top: 3rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Chicken Biryani</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        #image-section img {
+            width: 100%;
+            height: auto;
+        }
+        #highlights, #menu {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        h2 {
+            color: #ff6600;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-  <!-- Header Section -->
-  <header>
-    <h1>Home Made Chicken Biryani</h1>
-    <p>Hyderabadi Flavors That Touch Your Soul!</p>
-  </header>
 
-  <!-- Content Section -->
-  <div class="container">
-    <!-- Biryani Image -->
-    <img src="images/biryani.jpg" alt="Delicious Chicken Biryani" class="biryani-image" />
+    <header>
+        <h1>Welcome to Homemade Chicken Biryani</h1>
+    </header>
 
-    <!-- Menu Section -->
-    <div class="menu">
-      <h2>1 KG Chicken Biryani @ 1200/-</h2>
-      <h2>1 KG Chicken Biryani (Double Masala) @ 1200/-</h2>
-      <p>Slow-cooked, layered with fragrant basmati rice, authentic spices, and love. Served with raita and salan.</p>
-    </div>
+    <section id="image-section">
+        <h2>Our Biryani</h2>
+        <img src="biryani-image.jpg" alt="Delicious Chicken Biryani">
+    </section>
 
-    <!-- Call to Action -->
-    <div class="cta">
-      <a href="#">Order on WhatsApp 9999999999</a>
-    </div>
-  </div>
+    <section id="highlights">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Authentic Taste of Chicken Biryani</li>
+            <li>Fresh Ingredients Every Day</li>
+            <li>Fast Delivery to Your Doorstep</li>
+            <li>Affordable Prices</li>
+        </ul>
+    </section>
 
-  <!-- Footer Section -->
-  <footer>
-    © Biryani Lovers | All Rights Reserved
-  </footer>
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>Chicken Biryani - ₹300</li>
+            <li>Vegetarian Biryani - ₹250</li>
+            <li>Paneer Biryani - ₹275</li>
+            <li>Special Biryani (with raita & salad) - ₹350</li>
+        </ul>
+    </section>
+
 </body>
 </html>
